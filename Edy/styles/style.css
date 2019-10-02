@@ -1,4 +1,48 @@
-.logo{
-    height: 50px;
-    width: 250px;
+@font-face{
+    src: url(../fonts/Renner_\ 400\ Book.ttf)
+    font-famyly:"Renner";
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header {
+    width: 100%;
+    background-color: #2574a9
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 60px;
+}
+.logo img {
+    width: 320px;
+}
+.nav-bar{
+    font-size: 18px;
+}
+main{
+    font-size: 20px;
+}
+section{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-family: "Renner";
+    font-size: 1em
+}
+section:nth-child(odd){
+    height: 100vh;
+    background-color: #cae1f1
+}
+section:nth-child(even){
+    height: 100vh;
+    background-color: #b7d5eb;
 }
