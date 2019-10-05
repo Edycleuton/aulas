@@ -1,7 +1,8 @@
-@font-face{
-    src: url(../fonts/Renner_\ 400\ Book.ttf)
-    font-famyly:"Renner";
+@font-face {
+    font-family:"Dirty";
+    src: url("../fonts/Ridin\ Dirty\ -\ TTF.ttf");
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -35,7 +36,7 @@ section{
     display: grid;
     justify-content: center;
     align-content: center;
-    font-family: "Renner";
+    font-family: "Dirty";
     font-size: 1em
 }
 section:nth-child(odd){
