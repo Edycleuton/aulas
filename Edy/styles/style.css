@@ -15,35 +15,66 @@ a{
     text-decoration: none;
 }
 header {
+    position: fixed;
     width: 100%;
-    background-color: #2574a9
+    z-index: 1;
+    background-color: #2574a9;
 }
 .container{
     max-width: 1200px;
+    height: 100px;
     margin: 0 auto;
     padding: 0 60px;
+    display: grid;
+    grid-template-areas:
+        "lgo ... nav";
+    grid-template-columns: auto 1fr auto;
+    align-content: center
+}
+.logo{
+    grid-area: lgo;
 }
 .logo img {
     width: 320px;
 }
 .nav-bar{
+    display: grid;
+    align-content: center;
+    grid-area: nav;
     font-size: 18px;
+}
+.nav-bar ul{
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 20px;
+}
+.nav-bar a{
+    font-family: "Dirty";
+    text-transform: uppercase;
+    font-size: 1em;
+    color: #c5eff7;
+}
+.ghost{
+    width: 100%;
+    height: 100px;
+    background-color: #2574a9;
 }
 main{
     font-size: 20px;
 }
-section{
+main section{
     display: grid;
     justify-content: center;
     align-content: center;
     font-family: "Dirty";
-    font-size: 1em
+    font-size: 2em;
+   color: #2574a9;
 }
-section:nth-child(odd){
+main section:nth-child(odd){
     height: 100vh;
     background-color: #cae1f1
 }
-section:nth-child(even){
+main section:nth-child(even){
     height: 100vh;
     background-color: #b7d5eb;
 }
