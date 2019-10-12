@@ -16,9 +16,19 @@ a{
 }
 header {
     position: fixed;
+    position: fixed;
     width: 100%;
     z-index: 1;
     background-color: #2574a9;
+}
+.max-header {
+    background-color: #2574a9;
+
+
+}
+.min-header{
+    background-color: #b7d5eb;
+    
 }
 .container{
     max-width: 1200px;
@@ -44,7 +54,6 @@ header {
     font-size: 18px;
 }
 .nav-bar ul{
-    display: grid;
     grid-auto-flow: column;
     grid-gap: 20px;
 }
