@@ -18,16 +18,14 @@ header {
   position:fixed;
     width: 100%;
     z-index: 1;
-    background-color: #2574a9;
 }
 .max-header {
     background-color: #2574a9;
-    height: 80px;
 
 
 }
 .min-header{
-    background-color: #b7d5eb;
+    background-color: #c5eff7;
     
 }
 .container{
